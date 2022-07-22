@@ -1,0 +1,137 @@
+
+
+
+/* .loginRegisterButton{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+} */
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(white, rgb(159, 198, 202), rgb(46, 46, 46));
+  /* background-color: #f0f2f5; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageLogin{
+  width: 100%;
+  height: 100%;
+}
+
+.loginWrapper {
+  background-color: rgba(255, 255, 255, 0.479);
+  border-radius: 10px;
+  width: calc(70% + 7vw);
+  height: calc(70% - 4vh);
+  display: flex;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+
+.loginLeft{
+  padding-left: 3%;
+  padding-right: 2%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginLogo {
+  font-size: calc(2rem + 2vw);
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+
+.loginDesc {
+  font-size: calc(1rem + 0.5vw);
+}
+
+
+
+/* //------------------------------ */
+
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+.rloginBox{
+  height: 100%;
+  padding: 5%;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInp{
+  height: 14%;
+  align-self: center;
+  width: 80%;
+  border-radius: 90px;
+  border: 1px solid gray;
+  font-size: calc(0.6rem + .6vw);
+  padding:0 5%;
+  /* margin-top: 2%; */
+  margin-bottom: 5%;
+}
+
+
+.loginInp:focus{
+    outline: none;
+}
+
+.signButton{
+  height: calc(5% + 2.8vw);
+  border-radius: 90px;
+  align-self: center;
+  width: 80%;
+  border: none;
+  background-color: #1775ee;
+  color: white;
+  font-size: calc(0.6rem + .7vw);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginExistButton{
+  /* margin-bottom: 7%; */
+  height: calc(40% + 1.8vw);
+  width: 75%;
+  margin-top: 2%;
+  align-self: center;
+  border-radius: 90px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: calc(0.7rem + .7vw);
+  font-weight: 500;
+  padding: 1% 0;
+  cursor: pointer;
+}
+
+.linkk{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
